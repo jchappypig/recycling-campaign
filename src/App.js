@@ -7,6 +7,7 @@ function App() {
 			<header className="App-header">
 				<h1>The world counts on you 🫵 to RECYCLE!</h1>
 				<YouTube videoId="XfyNzmH1gpE"></YouTube>
+				<p>by Parker.zhou</p>
 			</header>
 		</div>
 	);
