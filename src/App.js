@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import YouTube from "react-youtube";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<header className="App-header">
+				<h1>The world counts on you 🫵 to RECYCLE!</h1>
+				<YouTube videoId="XfyNzmH1gpE"></YouTube>
+			</header>
+		</div>
+	);
 }
 
 export default App;
